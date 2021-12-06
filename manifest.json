@@ -1,0 +1,19 @@
+{
+  "name": "Youtube Music Bookmarker",
+  "description": "A simple extension to bookmark a Youtube Music link without metadata",
+  "version": "0.05",
+  "manifest_version": 3,
+
+  "background": {
+    "service_worker": "action_script.js"
+  },
+
+  "action": {
+    "service_worker": "action_script.js"
+  },
+
+  "permissions": [
+    "tabs",
+    "bookmarks"
+  ]
+}
